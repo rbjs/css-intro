@@ -1,0 +1,42 @@
+/* background-color: red; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(21, 200, 12);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 125%;
+  /*  
+  font-weight: bold;
+  font-style: italic; 
+  */
+}
+
+.extra-p {
+  color: red;
+  font-size: 32px;
+}
+
+.the-last-one {
+  text-align: center;
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+.menu {
+  padding: 0;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+.menu a:hover {
+  color: blue;
+  background-color: yellow;
+}
