@@ -4,55 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intro to CSS</title>
+    
+    <title>Назва вебсторінки</title>
+    <meta name="description" content="Опис вебсторінки" />
+    <meta
+      property="og:image"
+      content="https://username.github.io/img/preview.jpg"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
+    
   </head>
   <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
 
-    <ul class="menu">
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#contacts">Contacts</a>
-      </li>
-    </ul>
+    <div class="header">
+      <div class="navbar">
+        <div class="logo"><a href="#top">LOGOTYPE</a></div>
+        <ul class="menu">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contacts" class="active">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    <h2 id="about">About</h2>
-    <p>
-      blanditiis dolor quis tenetur explicabo at aliquam et laborum cumque
-      nesciunt quos hic consequuntur, sequi asperiores aperiam! Atque nam vitae
-      animi.
-    </p>
-    <p class="extra-p">
-      blanditiis dolor quis tenetur explicabo at aliquam et laborum cumque
-      nesciunt quos hic consequuntur, sequi asperiores aperiam! Atque nam vitae
-      animi.
-    </p>
+    <div class="section" id="about">
+      <h2>About</h2>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni unde,
+          delectus omnis eveniet numquam voluptates saepe earum. Autem impedit
+          ratione perferendis est nihil culpa, laboriosam officiis eaque quod
+          error ipsa?
+        </p>
+      </div>
+    </div>
 
-    <p class="extra-p">
-      blanditiis dolor quis tenetur explicabo at aliquam et laborum cumque
-      nesciunt quos hic consequuntur, sequi asperiores aperiam! Atque nam vitae
-      animi.
-    </p>
+    <div class="section" id="portfolio">
+      <h2>Portfolio</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni unde,
+        delectus omnis eveniet numquam voluptates saepe earum. Autem impedit
+        ratione perferendis est nihil culpa, laboriosam officiis eaque quod
+        error ipsa?
+      </p>
+    </div>
 
-    <p class="the-last-one">
-      blanditiis dolor quis tenetur explicabo at aliquam et laborum cumque
-      nesciunt quos hic consequuntur, sequi asperiores aperiam! Atque nam vitae
-      animi.
-    </p>
-
-    <p><a href="#top">Back to top</a></p>
-
-    <h2 id="contacts">Contacts</h2>
-    <ul>
-      <li>
-        <a href="http://instagram.com/panromanblog" target="_blank">my blog</a>
-      </li>
-    </ul>
-
-    <p><a href="#top">Back to top</a></p>
+    <div class="section" id="contacts">
+      <h2>Contacts</h2>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni unde,
+          delectus omnis eveniet numquam voluptates saepe earum. Autem impedit
+          ratione perferendis est nihil culpa, laboriosam officiis eaque quod
+          error ipsa?
+        </p>
+      </div>
+    </div>
   </body>
 </html>
